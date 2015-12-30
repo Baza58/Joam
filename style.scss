@@ -212,9 +212,11 @@ body {
 .about-content {
 	padding: 70px 0px;
 	display: flex;
+	overflow: hidden;
 }
 .about-box-images {
 	display: flex;
+	height: 200px;
 }
 .about-box-img,
 .about-box  {
@@ -240,6 +242,7 @@ body {
 .about-box-border {
 	border-top: 1px solid rgba(0,0,0,0.1);
 	border-right: 1px solid rgba(0,0,0,0.1);
+	height: 279px;
 }
 .numbers-container {
 	background-image: url('images/bg3.jpg');
@@ -409,6 +412,10 @@ body {
 	.about-box-heading,
 	.about-box-text {
 		margin-left: 0px;
+	}
+	.about-box-border,
+	.about-box-images {
+		height: inherit;
 	}
 }
 
