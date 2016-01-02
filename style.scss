@@ -19,6 +19,11 @@ a {
 body {
 	font-family:  Lato, 'Open Sans', Arial;
 }
+input {
+	-webkit-appearance: none;
+	-webkit-border-radius:0; 
+    border-radius:0;
+}
 :root {
 	font-size: 16px;
 }
@@ -59,7 +64,7 @@ body {
 	height: 600px;
 	background-image: url('images/bg.jpg');
 	background-size: cover;
-	background-position: 50% 50%; 
+	background-position: 0% 0%; 
 }
 .social-container {
 	margin-top: -230px;
